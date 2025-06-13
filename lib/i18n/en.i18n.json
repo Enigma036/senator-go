@@ -1,0 +1,32 @@
+{
+  "appTitle": "Senator GO",
+  "senator": "Senator",
+  "buttons": {
+    "findSenator": "Find a senator in the area",
+    "showCollection": "Senator collection",
+    "findOutMoreInformation": "Find out more information"
+  },
+  "locationDialogs": {
+    "position": {
+      "title": "Unable to retrieve location",
+      "content": "The app cannot retrieve your location. Verify that you have location turned on, or allow the app to access location services. Senators cannot be found outside the territory of the Czech Republic."
+    },
+    "newSenator": {
+      "title": "New Senator Discovered",
+      "content": "Congratulations, a new senator has been discovered."
+    }
+  },
+  "senatorCollection": "Senator collection",
+  "numberOfSenators": "Number of senators",
+  "filters": {
+    "all": "All",
+    "prague": "Prague",
+    "brno": "Brno",
+    "ostrava": "Ostrava"
+  },
+  "onTapMap": {
+    "district": "District n."
+  },
+  "parliamentaryGroup": "Parliamentary group",
+  "warning": "THIS APP IS NOT AN OFFICIAL APP OF THE SENATE OF CZECHIA"
+}

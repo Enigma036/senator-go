@@ -1,0 +1,32 @@
+{
+  "appTitle": "Senátor GO",
+  "senator": "Senátor",
+  "buttons": {
+    "findSenator": "Zjistit senátora v oblasti",
+    "showCollection": "Kolekce senátorů",
+    "findOutMoreInformation": "Zjistit více informací"
+  },
+  "locationDialogs": {
+    "position": {
+      "title": "Nelze načíst polohu",
+      "content": "Aplikace nemůže načíst vaši polohu. Ověřte, zda máte zapnutou polohu, popřípadě povolte aplikaci přístup k polohovým službám. Senátory také nelze hledat mimo území ČR."
+    },
+    "newSenator": {
+      "title": "Nový Senátor Objeven",
+      "content": "Gratulujeme, byl objeven nový senátor."
+    }
+  },
+  "senatorCollection": "Kolekce senátorů",
+  "numberOfSenators": "Počet senátorů",
+  "filters": {
+    "all": "Vše",
+    "prague": "Praha",
+    "brno": "Brno",
+    "ostrava": "Ostrava"
+  },
+  "onTapMap": {
+    "district": "Obvod č."
+  },
+  "parliamentaryGroup": "Poslanecký klub",
+  "warning": "TATO APLIKACE NENÍ OFICIÁLNÍ APLIKÁCÍ SENÁTU ČR"
+}
