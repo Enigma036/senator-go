@@ -71,7 +71,8 @@ class _SenatorCollectionPageState extends State<SenatorCollectionPage> {
   Future<void> _filterPolygons() async {
     if (selectedFilter == context.t.filters.all) {
       _zoomToAll();
-      filteredPolygons = allPolygons;
+      filteredPolygons = await geoFinder.loadSenatorsCollection(
+          "assets/json/districts.json", "assets/json/senators.json");
     } else if (selectedFilter == context.t.filters.prague) {
       _zoomToPrague();
       filteredPolygons = await geoFinder.loadSenatorsCollection(
